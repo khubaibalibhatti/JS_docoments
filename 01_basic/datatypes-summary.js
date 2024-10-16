@@ -23,12 +23,47 @@ console.log(id === anotherId);
 
 const heros = ["aliansari", "Danish","feroz"]
 
+// console.log(heros);
+
+
 let myObj= {
     name:"khubaib",
     age:"17"
 }
+console.log(myObj);
 
 const myFunction = function(){
     console.log("hello word");
     
 }
+
+
+
+// *******************************//
+
+// stack=> (Primitive), heap=>(Non-Primitive)
+
+let myinstaname = "ali_khubaib007"
+
+let anothername = myinstaname
+anothername = "Ahtasham"
+
+console.log(myinstaname);
+console.log(anothername);
+
+let userOne = {
+    name:"khubaib",
+    email:"ali@demo.com"
+}
+
+
+let userTwo = userOne
+
+userTwo.email = "sahmi123@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
+
